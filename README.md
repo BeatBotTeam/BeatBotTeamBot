@@ -56,7 +56,7 @@ $ sudo service redis-server start
 
 # Owner : [Amirho3inf](http://telegram.me/amirho3inf)
 
-# BeatBot Team Channel
+# BeatBot Team Channels
 -----------------
 
 # Fa : [BeatBot_Team](http://telegram.me/beatbot_team)
