@@ -32,7 +32,7 @@ Clone the github repository:
 # Clone the repo and give the permissions to start the launch script
 
 $ git clone https://github.com/BeatBotTeam/BeatBotTeamBot.git
-$ cd GroupButler && sudo chmod 777 launch.sh
+$ cd BeatBotTeamBot && sudo chmod 777 launch.sh
 ```
 
 **First of all, take a look to your bot settings:**
