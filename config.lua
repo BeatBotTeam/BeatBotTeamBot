@@ -3,17 +3,8 @@ return {
 	admin = 94746365,
 	log_chat = -1001057801239,
 	channel = '@BeatBot_Team', --channel username with the '@'
-	languages = 'languages.lua',
 	plugins = {
 		'start.lua','aboutus.lua','contactus.lua',
-	},
-	available_languages = {
-		'en',
-		'it',
-		'es',
-		'br',
-		'ru'
-		--more to come
 	},
 	chat_data = {
 		'mod',
