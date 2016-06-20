@@ -18,8 +18,6 @@ bot_init = function(on_reload) -- The function run when the bot is started or re
 	end
 	print(colors('%{blue bright}Loading utilities.lua...'))
 	cross = dofile('utilities.lua') -- Load miscellaneous and cross-plugin functions.
-	print(colors('%{blue bright}Loading languages...'))
-	lang = dofile(config.languages) -- All the languages available
 	print(colors('%{blue bright}Loading API functions table...'))
 	api = require('methods')
 	
@@ -157,7 +155,8 @@ on_msg_receive = function(msg) -- The fn run whenever a message is received.
 		else
 			if v.triggers then
 				for k,w in pairs(v.triggers) do
-					local blocks = match_pattern(w, msg.text)
+					local blocks = match_pattern(w, m
+sg.text)
 					if blocks then
 						print(colors('\nMsg info:\t %{red bright}'..get_from(msg)..'%{reset} ['..msg.chat.type..'] ('..os.date('at %X')..')'))  --('..os.date('on %A, %d %B %Y at %X')..')'))
 						if blocks[1] ~= '' then
@@ -193,7 +192,6 @@ on_msg_receive = function(msg) -- The fn run whenever a message is received.
 		end
 	end
 end
-
 
 
 local function service_to_message(msg)
