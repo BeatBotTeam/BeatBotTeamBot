@@ -155,8 +155,7 @@ on_msg_receive = function(msg) -- The fn run whenever a message is received.
 		else
 			if v.triggers then
 				for k,w in pairs(v.triggers) do
-					local blocks = match_pattern(w, m
-sg.text)
+					local blocks = match_pattern(w, msg.text)
 					if blocks then
 						print(colors('\nMsg info:\t %{red bright}'..get_from(msg)..'%{reset} ['..msg.chat.type..'] ('..os.date('at %X')..')'))  --('..os.date('on %A, %d %B %Y at %X')..')'))
 						if blocks[1] ~= '' then
@@ -192,6 +191,7 @@ sg.text)
 		end
 	end
 end
+
 
 
 local function service_to_message(msg)
