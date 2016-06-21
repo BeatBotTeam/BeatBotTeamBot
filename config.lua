@@ -1,7 +1,8 @@
 return {
-	bot_api_key = '',
-	admin = 94746365,
+	bot_api_key = '189323187:AAE29zw1Sy4CzCxGPW1ICz4hev1WxskDXC8',
+	admin = 94746365, 
 	channel = '@BeatBot_Team', --channel username with the '@'
+
 	plugins = {
 		'start.lua','aboutus.lua','contactus.lua',
 	},
