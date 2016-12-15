@@ -1,6 +1,6 @@
-# BeatBotTeamBot
+# [ BeatBotTeamBot ]
 
-# This bot based on [GroupButler](https://github.com/RememberTheAir/GroupButler)
+This bot based on [GroupButler](https://github.com/RememberTheAir/GroupButler)
 
 # Please join to [BeatBotTeam !](http://telegram.me/beatBot_channel)
 
