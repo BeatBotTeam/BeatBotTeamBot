@@ -2,6 +2,8 @@
 
 # This bot based on [GroupButler](https://github.com/RememberTheAir/GroupButler)
 
+# Please join to [BeatBotTeam !](http://telegram.me/beatBot_channel)
+
 ##Setup
 You **must** have Lua (5.2+) installed, plus some modules: LuaSocket, LuaSec, Redis-Lua, Lua term and Lua serpent. And, to upload files, you need Curl installed too.
 
@@ -49,14 +51,3 @@ Before start the bot, you have to start Redis. Open a new window and type:
 
 $ sudo service redis-server start
 ```
-
-
-# BeatBot Team
------------------
-
-# Owner : [Amirho3inf](http://telegram.me/amirho3inf)
-
-# BeatBot Team Channels
------------------
-
-# [BeatBot_Team](http://telegram.me/beatbot_Channel)
