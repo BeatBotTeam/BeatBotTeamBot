@@ -59,5 +59,4 @@ $ sudo service redis-server start
 # BeatBot Team Channels
 -----------------
 
-# Fa : [BeatBot_Team](http://telegram.me/beatbot_team)
-# En : [BeatBotTeam](http://telegram.me/beatbotteam)
+# [BeatBot_Team](http://telegram.me/beatbot_Channel)
